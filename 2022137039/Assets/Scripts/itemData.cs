@@ -23,7 +23,7 @@ public class itemData
     {
         if(Enum.TryParse(itemTypeString, out itemType parsedType))
         {
-            itemType = parsedType;
+            itemType = parsedType
         }
         else
         {
